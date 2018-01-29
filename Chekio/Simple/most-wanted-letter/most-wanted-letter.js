@@ -1,3 +1,6 @@
+// Solution of Chekio mission: Most wanted letter
+// https://github.com/CheckiO-Missions/checkio-mission-most-wanted-letter
+
 "use strict";
 
 function isLetter(char) {
