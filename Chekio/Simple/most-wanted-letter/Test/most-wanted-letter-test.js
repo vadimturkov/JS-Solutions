@@ -112,7 +112,7 @@ const assert = chai.assert;
 
 describe('Most wanted letter: Basic tests', function () {
     basic.forEach(testCase => {
-        it(`For [${testCase['input']}] should be [${testCase['answer']}]`, function () {
+        it(`For ${testCase['input']} should be ${testCase['answer']}`, function () {
             assert.equal(mostWanted(testCase['input']), testCase['answer']);
         });
     });
@@ -120,7 +120,7 @@ describe('Most wanted letter: Basic tests', function () {
 
 describe('Most wanted letter: Text tests', function () {
     texts.forEach(testCase => {
-        it(`For [${testCase['input']}] should be [${testCase['answer']}]`, function () {
+        it(`For ${testCase['input']} should be ${testCase['answer']}`, function () {
             assert.equal(mostWanted(testCase['input']), testCase['answer']);
         });
     });
@@ -128,7 +128,7 @@ describe('Most wanted letter: Text tests', function () {
 
 describe('Most wanted letter: Edges tests', function () {
     edges.forEach(testCase => {
-        it(`For [${testCase['input']}] should be [${testCase['answer']}]`, function () {
+        it(`For ${testCase['input']} should be ${testCase['answer']}`, function () {
             assert.equal(mostWanted(testCase['input']), testCase['answer']);
         });
     });
