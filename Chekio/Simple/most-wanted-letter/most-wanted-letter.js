@@ -1,4 +1,4 @@
-// Solution of Chekio mission: Most wanted letter
+// Solution to Chekio mission: Most wanted letter
 // https://github.com/CheckiO-Missions/checkio-mission-most-wanted-letter
 
 "use strict";
