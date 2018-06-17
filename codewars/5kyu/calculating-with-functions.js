@@ -1,4 +1,4 @@
-// Solution to CodeWars kata: Counting Duplicates
+// Solution to CodeWars kata: Calculating with functions
 // www.codewars.com/kata/calculating-with-functions
 
 const number = (value, op) => op ? op(value) : value;
