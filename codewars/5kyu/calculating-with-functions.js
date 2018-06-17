@@ -1,3 +1,6 @@
+// Solution to CodeWars kata: Counting Duplicates
+// www.codewars.com/kata/calculating-with-functions
+
 const number = (value, op) => op ? op(value) : value;
 
 const zero = op => number(0, op);
