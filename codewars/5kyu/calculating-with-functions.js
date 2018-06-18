@@ -1,5 +1,5 @@
 // Solution to CodeWars kata: Calculating with functions
-// www.codewars.com/kata/calculating-with-functions
+// https://www.codewars.com/kata/calculating-with-functions
 
 const number = (value, op) => op ? op(value) : value;
 
@@ -17,4 +17,4 @@ const nine = op => number(9, op);
 const plus = right => left => left + right;
 const minus = right => left => left - right;
 const times = right => left => left * right;
-const dividedBy = right => left => left / right;
+const dividedBy = right => left => Math.floor(left / right);
