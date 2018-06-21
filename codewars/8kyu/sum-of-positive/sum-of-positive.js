@@ -2,5 +2,5 @@
 // https://www.codewars.com/kata/sum-of-positive/
 
 function positiveSum(array) {
-    return array.filter(x => x > 0).reduce((a, b) => a + b, 0);
+    return array.reduce((sum, number) => sum + (number > 0 ? number : 0), 0);
 }
