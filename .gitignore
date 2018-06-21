@@ -1,1 +1,2 @@
-*.idea/
+# OS X specific:
+.DS_Store
